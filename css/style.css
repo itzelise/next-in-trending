@@ -1,21 +1,198 @@
-.art-area {
-    width: 1000px;
-    height: 1000px;
-    position: relative;
+body {
+    margin: 0;
+    background-image: url("pinkbackground.gif");
+    background-size: cover;
+
 }
 
-.imagecontainer {
+.container {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+p {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    animation: loopText 7s infinite linear;
+                
+}
+
+
+
+@keyframes loopText {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.wrapper {
+    cursor: url("custom-cursor.png"), auto;
+    color: rgb(138, 7, 150);
+    font-family: monospace;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 500px; 
+}
+
+
+
+#skelly {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+#rainbowroach {
+    margin-left: 50rem;
+    margin-top: -15rem;
+}
+
+#rainbowcollage {
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+
+
+#scrollingcollage {
+    margin-left: 67rem;
+    margin-top: -90rem;
+
+}
+
+#collage4 {
+    margin-left: 58rem;
+}
+
+#collage5 {
+    margin-left: 50rem;
+    margin-top: 15rem;
+}
+
+#linecollage {
+    margin-left: 30rem;
+    margin-top: -20rem;
+}
+
+#scrolling2 {
+    margin-top: -60rem;
+    margin-left: 10rem;
+}
+
+
+#notification {
+    margin-top: -116rem;
+    margin-left: 8rem;
+}
+
+#squidward {
+    margin-top: -14rem;
+    margin-left: 6rem;
+}
+
+#neoncat {
+    margin-left: 55rem;
+    margin-top: -60rem;
+}
+
+#test {
+    margin-left: 25rem;
+    margin-top: -12rem;
+}
+
+#test2 {
+    margin-left: 77rem;
+    margin-top: 8rem;
     position: absolute;
-    width: 200px;
-    height: 200px;
 }
 
-img {
-    width: 100%;
-    height: 100%;
+#test3 {
+    margin-top: 70rem;
+    margin-left: 25rem;
 }
 
-#bananacat {
-    left: 200px;
-    top: 300px;
+#maxwell {
+    margin-left: 1180px;
+    margin-top: 550px;
 }
+
+
+
+
+
+
+.cursor {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.text {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: monospace;
+
+}
+
+
+@keyframes LoopText {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0%);
+    } 
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    animation: loopText 7s infinite linear;
+    
+}
+
+.text3 {
+    display: flex;
+    margin-top: 90px;
+    text-wrap: nowrap;
+    white-space: nowrap;
+    font-size: 4rem;
+    color: chartreuse;
+    animation: loopText 7s infinite linear;
+}
+
+@keyframes LoopText {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+    
